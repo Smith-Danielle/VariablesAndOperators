@@ -13,7 +13,7 @@ namespace VariablesAndOperators
 
             //TODO Take that number as an input and using a ternary operator respond with if that number is even or odd.
 
-            var isEven = (userNumber % 2 == 0) ? "Your number is even." : "Your number is false.";
+            var isEven = (userNumber % 2 == 0) ? "Your number is even." : "Your number is odd.";
             Console.WriteLine(isEven);
 
             //TODO Assign the value of the double below to an int variable called "priceRounded". google "w3schools C# type casting"
